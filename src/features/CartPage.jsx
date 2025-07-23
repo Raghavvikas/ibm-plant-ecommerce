@@ -1,6 +1,7 @@
 import { useSelector } from 'react-redux';
 import CartCard from '../../components/CartCard';
 import { Link } from 'react-router-dom';
+import './CartPage.css';
 
 export default function CartPage() {
   const cartItems = useSelector(state => state.cart);

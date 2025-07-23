@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import './NavBar.css';
+
 export default function Navbar() {
   return (
     <nav className="flex justify-between p-4 bg-green-700 text-white">

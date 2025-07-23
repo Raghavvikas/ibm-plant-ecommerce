@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './HomePage.css';
 export default function HomePage() {
   return (
     <div className="flex flex-col items-center justify-center h-full p-10 text-center">

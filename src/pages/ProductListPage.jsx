@@ -1,5 +1,6 @@
 import { plantsArray } from '../data/plants';
 import PlantCard from '../components/PlantCard';
+import './ProductListPage.css';
 
 export default function ProductListingPage() {
   return (
