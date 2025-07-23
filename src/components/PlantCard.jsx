@@ -1,18 +1,18 @@
+import './PlantCard.css';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../features/CartSlice';
-import './PlantCard.css';
 
 export default function PlantCard({ plant }) {
-  const dispatch = useDispatch();
+
+    const dispatch = useDispatch()
   return (
-    <div className="border rounded-lg p-4 shadow-md">
-      <img src={plant.image} alt={plant.name} className="h-48 w-full object-cover" />
-      <h2 className="font-bold text-lg mt-2">{plant.name}</h2>
-      <p>{plant.description}</p>
-      <p className="text-green-700 font-semibold">{plant.cost}</p>
-      <button onClick={() => dispatch(addToCart(plant))} className="mt-2 bg-green-600 text-white px-3 py-1 rounded">
-        Add to Cart
-      </button>
+    <div className="plant-card">
+      <img src={plant.image} alt={plant.name} />
+      {plant.onSale && <span className="sale-badge">SALE</span>}
+      <div className="plant-name">{plant.name}</div>
+      <div className="plant-description">{plant.description}</div>
+      <div className="price">${plant.cost}</div>
+      <button className="add-to-cart-btn" onClick={() => dispatch(addToCart(plant))}>Add to Cart</button>
     </div>
   );
 }

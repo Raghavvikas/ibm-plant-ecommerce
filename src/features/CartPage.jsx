@@ -5,19 +5,32 @@ import './CartPage.css';
 
 export default function CartPage() {
   const cartItems = useSelector(state => state.cart);
+
+  const totalAmount = cartItems.reduce((total, item) => {
+    const unitCost = parseFloat(item.cost.replace('$', ''));
+    return total + unitCost * item.quantity;
+  }, 0);
+
   return (
-    <div className="p-6">
-      <h2 className="text-2xl font-bold mb-4">Your Cart</h2>
+    <div className="cart-page-container">
+      <h2 className="cart-heading">Your Cart</h2>
       {cartItems.length === 0 ? (
-        <p>Your cart is empty. <Link to="/products" className="text-green-700">Continue Shopping</Link></p>
+        <p className="empty-cart-msg">
+          Your cart is empty. <Link to="/products" className="continue-link">Continue Shopping</Link>
+        </p>
       ) : (
         <>
-          <div className="space-y-4">
+          <div className="cart-item-list">
             {cartItems.map(item => <CartCard key={item.name} item={item} />)}
           </div>
-          <div className="mt-6 flex justify-between">
-            <Link to="/products" className="bg-gray-300 px-4 py-2 rounded">Continue Shopping</Link>
-            <button className="bg-blue-600 text-white px-4 py-2 rounded">Checkout</button>
+
+          <div className="cart-summary">
+            <p className="cart-total">Total Amount: <strong>${totalAmount.toFixed(2)}</strong></p>
+          </div>
+
+          <div className="cart-footer">
+            <Link to="/products" className="continue-btn">Continue Shopping</Link>
+            <button className="checkout-btn">Checkout</button>
           </div>
         </>
       )}
