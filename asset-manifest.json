@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Raghavvikas/ibm-plant-ecommerce.git/static/css/main.9d99462e.css",
+    "main.js": "/Raghavvikas/ibm-plant-ecommerce.git/static/js/main.d13965b1.js",
+    "static/js/453.f804edc1.chunk.js": "/Raghavvikas/ibm-plant-ecommerce.git/static/js/453.f804edc1.chunk.js",
+    "index.html": "/Raghavvikas/ibm-plant-ecommerce.git/index.html",
+    "main.9d99462e.css.map": "/Raghavvikas/ibm-plant-ecommerce.git/static/css/main.9d99462e.css.map",
+    "main.d13965b1.js.map": "/Raghavvikas/ibm-plant-ecommerce.git/static/js/main.d13965b1.js.map",
+    "453.f804edc1.chunk.js.map": "/Raghavvikas/ibm-plant-ecommerce.git/static/js/453.f804edc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d99462e.css",
+    "static/js/main.d13965b1.js"
+  ]
+}
