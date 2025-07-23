@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { addToCart } from '../features/cart/cartSlice';
+import { addToCart } from '../features/CartSlice';
 import './PlantCard.css';
 
 export default function PlantCard({ plant }) {

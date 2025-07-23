@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/NavBar';
 import HomePage from './pages/HomePage';
-import ProductListingPage from './pages/ProductListingPage';
-import CartPage from './features/cart/CartPage';
+import ProductListingPage from './pages/ProductListPage';
+import CartPage from './features/CartPage';
 
 export default function App() {
   return (

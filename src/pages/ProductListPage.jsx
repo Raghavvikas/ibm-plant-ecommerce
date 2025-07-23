@@ -1,8 +1,8 @@
-import { plantsArray } from '../data/plants';
+import plantsArray  from '../data/plantsData';
 import PlantCard from '../components/PlantCard';
 import './ProductListPage.css';
 
-export default function ProductListingPage() {
+export default function ProductListPage() {
   return (
     <div className="p-6">
       {plantsArray.map(section => (

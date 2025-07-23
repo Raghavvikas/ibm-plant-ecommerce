@@ -206,4 +206,4 @@ const plantsArray = [
         }
     ];
 
-    export default plantsData;
+    export default plantsArray;

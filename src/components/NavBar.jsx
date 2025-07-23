@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 
-export default function Navbar() {
+export default function NavBar() {
   return (
     <nav className="flex justify-between p-4 bg-green-700 text-white">
       <div className="font-bold text-xl">Paradise Nursery</div>

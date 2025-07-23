@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import CartCard from '../../components/CartCard';
+import CartCard from '../components/CartCard';
 import { Link } from 'react-router-dom';
 import './CartPage.css';
 
