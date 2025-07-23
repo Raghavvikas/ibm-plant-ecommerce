@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ibm-plant-ecommerce/static/css/main.9d99462e.css",
-    "main.js": "/ibm-plant-ecommerce/static/js/main.2dfcb159.js",
+    "main.css": "/ibm-plant-ecommerce/static/css/main.e22ebf79.css",
+    "main.js": "/ibm-plant-ecommerce/static/js/main.63cb3bc4.js",
     "static/js/453.f804edc1.chunk.js": "/ibm-plant-ecommerce/static/js/453.f804edc1.chunk.js",
     "index.html": "/ibm-plant-ecommerce/index.html",
-    "main.9d99462e.css.map": "/ibm-plant-ecommerce/static/css/main.9d99462e.css.map",
-    "main.2dfcb159.js.map": "/ibm-plant-ecommerce/static/js/main.2dfcb159.js.map",
+    "main.e22ebf79.css.map": "/ibm-plant-ecommerce/static/css/main.e22ebf79.css.map",
+    "main.63cb3bc4.js.map": "/ibm-plant-ecommerce/static/js/main.63cb3bc4.js.map",
     "453.f804edc1.chunk.js.map": "/ibm-plant-ecommerce/static/js/453.f804edc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d99462e.css",
-    "static/js/main.2dfcb159.js"
+    "static/css/main.e22ebf79.css",
+    "static/js/main.63cb3bc4.js"
   ]
 }
